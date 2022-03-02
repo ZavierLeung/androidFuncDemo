@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zavier.androidfunctiontestv2">
+
+    <application
+        android:name=".MainApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".testActivity.BluetoothFileActivity"></activity>
+        <activity android:name=".testActivity.SystemInterfaceActivity" />
+        <activity android:name=".testActivity.SerialPortActivity" />
+        <activity android:name=".testActivity.SensorActivity" />
+        <activity android:name=".testActivity.VideoActivity" />
+        <activity android:name=".testActivity.NetworkActivity" />
+        <activity android:name=".testActivity.EndTestActivity" />
+        <activity android:name=".testActivity.BrightnessActivity" />
+        <activity android:name=".testActivity.WifiActivity" />
+        <activity android:name=".testActivity.BluetoothActivity" />
+        <activity android:name=".testActivity.FingerPrintActivity" />
+        <activity android:name=".testActivity.HardwareInfoActivity" />
+        <activity android:name=".testActivity.UsbExternalActivity" />
+        <activity android:name=".testActivity.CameraActivity" />
+        <activity android:name=".testActivity.LedActivity" />
+        <activity android:name=".testActivity.RecordActivity" />
+        <activity android:name=".testActivity.AudioActivity" />
+        <activity android:name=".testActivity.TouchPenActivity" />
+        <activity android:name=".testActivity.TouchActivity" />
+        <activity android:name=".testActivity.DisplayActivity" />
+        <activity android:name=".testActivity.UsbCommunicationActivity">
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED" />
+            </intent-filter>
+            <meta-data
+                android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
+                android:resource="@xml/accessory_filter" />
+        </activity>
+        <activity
+            android:name=".MainFunctionActivity"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service android:name=".usbCommunication.aoa.UsbStateService"/>
+    </application>
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+</manifest>

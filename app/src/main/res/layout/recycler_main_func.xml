@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_recycler_main_func">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="3"
+            android:id="@+id/recycler_main_func_tv"
+            android:text="@string/main_function_item"
+            android:textSize="25sp"
+            android:gravity="fill_vertical"
+            android:paddingLeft="10dp"
+            />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:id="@+id/recycler_main_func_iv"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_ready_test"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/recycler_main_func_skip"
+            android:text="@string/main_function_skip"
+            android:visibility="gone"
+            android:gravity="center"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorLine"/>
+
+</LinearLayout>

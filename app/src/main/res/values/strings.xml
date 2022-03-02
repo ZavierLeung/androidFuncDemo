@@ -1,0 +1,172 @@
+<resources>
+    <string name="app_name">androidFunctionTestV2</string>
+    <string name="main_function_skip">跳过</string>
+    <string name="main_function_item">功能测试</string>
+    <string name="main_func_display">显示屏测试</string>
+    <string name="main_func_touch">触摸屏测试</string>
+    <string name="main_func_pen">电磁屏测试</string>
+    <string name="main_func_audio">声音测试</string>
+    <string name="main_func_record">录音测试</string>
+    <string name="main_func_led">指示灯测试</string>
+    <string name="main_func_camera">摄像头预览测试</string>
+    <string name="main_func_usb_external">USB外接端口测试</string>
+    <string name="main_func_usb_communication">USB通信测试</string>
+    <string name="main_func_hardware_info">硬件信息</string>
+    <string name="main_func_fingerprint">指纹仪测试</string>
+    <string name="main_func_bluetooth">蓝牙测试</string>
+    <string name="main_func_wifi">wifi测试</string>
+    <string name="main_func_brightness">亮度测试</string>
+    <string name="main_func_network">网络测试</string>
+    <string name="main_func_sensor">传感器测试</string>
+    <string name="main_func_serial_port">串口测试</string>
+    <string name="main_func_system_interface">系统接口测试</string>
+    <string name="main_func_video">视频测试</string>
+    <string name="main_func_bluetooth_file">蓝牙通信测试</string>
+
+    <string name="main_func_test_finish">测试完成</string>
+
+    <string name="main_func_start_test">开始测试</string>
+    <string name="main_func_test_success">测试通过</string>
+    <string name="main_func_test_ready">待测试</string>
+    <string name="main_func_test_failed">测试不通过</string>
+
+    <string name="main_func_test_pass_btn">测试通过</string>
+    <string name="main_func_test_nopass_btn">测试不通过</string>
+    <string name="main_func_test_return_btn">返回主页面</string>
+    <string name="main_func_test_exit">退出</string>
+    <string name="main_func_test_uninstall">卸载并重启</string>
+
+    <string name="display_test_tv">请点击屏幕，进行测试</string>
+    <string name="display_test_success">测试完成</string>
+
+    <string name="audio_test_simple">重新播放</string>
+
+    <string name="record_test_play">请说话，马上开始录音,录音后将自动播放刚才说的内容</string>
+    <string name="record_test_restart">重新录音</string>
+
+    <string name="InsertSdCard">请插入SD卡!</string>
+    <string name="SdCardNospace">SD卡没有空间!</string>
+    <string name="HeadsetRecodrSuccess">录音成功！开始回放.</string>
+    <string name="RecordError">录音失败！</string>
+
+    <string name="led_test_open">打开</string>
+    <string name="led_test_close">关闭</string>
+    <string name="led_test_sub_title">进入后会自动打开，跳转到下个测试会自动关闭。\n下面按钮为手动总开关</string>
+
+    <string name="camera_test_result_fail">未检测到摄像头</string>
+
+    <string name="hardware_info_test_root">Root : </string>
+    <string name="hardware_info_test_screen">屏幕 : </string>
+    <string name="hardware_info_test_dpi">Dpi : </string>
+    <string name="hardware_info_test_device_id">设备id : </string>
+    <string name="hardware_info_test_device_model">设备型号 : </string>
+    <string name="hardware_info_test_brand">设备品牌 : </string>
+    <string name="hardware_info_test_version">设备版本 : </string>
+    <string name="hardware_info_test_version_num">设备版本号 : </string>
+    <string name="hardware_info_test_cpu">处理器 : </string>
+    <string name="hardware_info_test_sim">SIM : </string>
+    <string name="hardware_info_test_rom">储存内存 : </string>
+    <string name="hardware_info_test_ram">运行内存 : </string>
+
+    <string name="bluetooth_test_sub_title">请察看设备</string>
+    <string name="bluetooth_test_adapter_fail">获取适配器失败!</string>
+    <string name="bluetooth_test_scan">正在搜索设备...</string>
+    <string name="bluetooth_test_scan_num">搜索次数:</string>
+    <string name="bluetooth_test_init">请等待设备初始化...</string>
+    <string name="bluetooth_test_open_success">打开蓝牙成功</string>
+    <string name="bluetooth_test_open_fail">打开蓝牙失败！</string>
+    <string name="bluetooth_test_find_fail">查找设备失败！</string>
+    <string name="bluetooth_test_find_success">找到设备....\n 通过!</string>
+    <string name="bluetooth_test_retest">重新测试</string>
+    <string name="wifi_test_open">正在打开wifi...</string>
+    <string name="wifi_test_open_success">打开wifi成功</string>
+    <string name="wifi_test_open_fail">打开wifi失败</string>
+    <string name="wifi_test_scan">搜索网络...</string>
+    <string name="wifi_test_reopen">尝试重新打开wifi...</string>
+    <string name="wifi_test_result">请等待设备初始化</string>
+    <string name="wifi_test_error">无线测试失败!</string>
+    <string name="wifi_test_find">找到网络-</string>
+    <string name="wifi_test_try">尝试连接到 </string>
+    <string name="wifi_test_connect">已连接到 </string>
+    <string name="wifi_test_connect_error">找不到一个可连接的路由！</string>
+    <string name="wifi_test_ping">Ping 测试 : </string>
+    <string name="wifi_test_http">Http 连接测试: </string>
+    <string name="wifi_test_signal3">信号(强)</string>
+    <string name="wifi_test_signal2">信号(中)</string>
+    <string name="wifi_test_signal1">信号(弱)</string>
+    <string name="wifi_test_signal0">信号(差)</string>
+
+    <string name="brightness_retest">重新测试</string>
+
+    <string name="finger_print_test_sub_title">自动检测指纹仪的驱动版本</string>
+    <string name="finger_print_test_result">正在检测中...</string>
+    <string name="finger_print_test_success">检测成功\n设备版本：</string>
+    <string name="finger_print_test_failed">检测失败</string>
+
+    <string name="network_test">网络测试</string>
+    <string name="network_test_sub">点击开始后，会检测网络模式（如wifi，ethernet，mobile），并自动ping网络</string>
+    <string name="network_test_start">开始</string>
+    <string name="network_test_stop">停止</string>
+    <string name="network_test_save_file">保存文件 </string>
+
+    <string name="serial_port_test">串口节点测试</string>
+    <string name="serial_port_test_open_hint">请输入节点的路径</string>
+    <string name="serial_port_test_send_hint">请输入要发送的命令</string>
+    <string name="serial_port_test_open">打开</string>
+    <string name="serial_port_test_send">发送</string>
+    <string name="serial_port_test_receive">接收</string>
+    <string name="serial_port_test_spinner">手动输入</string>
+
+    <string name="system_interface_sub_title">包括物理按键，usb，sdcard等接口</string>
+    <string name="system_interface_result">等待接口测试</string>
+
+    <string name="sensor_test_result">Sensor</string>
+    <string name="sensor_test_sub_title">以下是当前设备的传感器，每次只能测试一种传感器</string>
+    <string name="sensor_test_result_null_data">null</string>
+
+    <string name="bluetooth_bt_server">经典蓝牙（服务器）</string>
+    <string name="bluetooth_ble_server">低功耗蓝牙（服务器）</string>
+    <string name="bluetooth_bt_client">经典蓝牙（客户端）</string>
+    <string name="bluetooth_ble_client">低功耗蓝牙（客户端）</string>
+    <string name="bluetooth_file_test_message">消息</string>
+    <string name="bluetooth_file_test_file">文件</string>
+    <string name="bluetooth_file_test_start">开始</string>
+    <string name="bluetooth_file_test_send">发送</string>
+    <string name="bluetooth_file_test_select_file">选择文件</string>
+    <string name="bluetooth_file_test_scan">扫描</string>
+    <string name="bluetooth_file_test_return">返回模式选择页面</string>
+    <string name="bluetooth_file_test_scan_start">搜索设备中...</string>
+    <string name="bluetooth_file_test_scan_finish">搜索完成</string>
+
+    <string name="usb_communication_test_detached">USB已断开</string>
+    <string name="usb_communication_test_attached">USB已连接</string>
+    <string name="usb_communication_test_sub_title">
+        AOA的测试方式：host端设备点击从设备(aoa)，通过USB连接，另一设备会弹框，点确认后会自动打开软件，点击主设备(aoa)，即可通信。\n
+        HID的测试方法：hid设备点击主设备(hid)，填入你要通信的PID,VID，通过USB连接，另一设备点击从设备(hid)，即可通信。\n
+        (PS:AOA主设备对应硬件的accessory模式，AOA从设备对应硬件的host模式)</string>
+    <string name="usb_communication_test_aoa_host">主设备(aoa)</string>
+    <string name="usb_communication_test_aoa_accessory">从设备(aoa)</string>
+    <string name="usb_communication_test_hid_host">主设备(hid)</string>
+    <string name="usb_communication_test_hid_device">从设备(hid)</string>
+    <string name="usb_communication_test_message">消息</string>
+    <string name="usb_communication_test_file">文件</string>
+    <string name="usb_communication_test_start">开始</string>
+    <string name="usb_communication_test_send">发送</string>
+    <string name="usb_communication_test_clean">清除</string>
+    <string name="usb_communication_test_select_file">选择文件</string>
+    <string name="usb_communication_connect_usb">请连接USB</string>
+    <string name="usb_communication_usb_connect_error">连接USB错误</string>
+    <string name="usb_communication_usb_disconnect">USB没连接</string>
+    <string name="usb_communication_usb_connect_success">USB连接成功</string>
+    <string name="usb_communication_usb_hid_device_connect">HID打开成功，USB可进行通信</string>
+    <string name="usb_aoa_openAccessoryModel">打开从设备模块</string>
+    <string name="usb_aoa_initHostDevice">初始化主设备</string>
+    <string name="usb_aoa_initAccessoryDevice">初始化从设备</string>
+    <string name="usb_aoa_initAccessory_success">初始化从设备成功</string>
+    <string name="usb_aoa_open_accessory_mode">打开从设备模式</string>
+
+    <string name="dialog_prompt_string">提示</string>
+    <string name="dialog_content_string">确认要卸载该应用？</string>
+    <string name="dialog_cancel_string">取消</string>
+    <string name="dialog_confirm_string">确认</string>
+</resources>

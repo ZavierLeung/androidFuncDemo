@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+    <include layout="@layout/textview_title" android:id="@+id/main_tv_title"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/usb_communication_tv"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="@color/colorAccent"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom">
+        <include layout="@layout/button_status" android:id="@+id/main_btn_status" />
+    </LinearLayout>
+</LinearLayout>

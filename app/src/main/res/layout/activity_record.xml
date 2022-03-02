@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom= "60dip">
+
+        <include layout="@layout/textview_title" android:id="@+id/main_tv_title"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.zavier.androidfunctiontestv2.customView.LevelMeterView
+                android:id="@+id/record_meter_view"
+                android:background="@drawable/ic_record"
+                android:layout_width="150px"
+                android:layout_height="60px"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+
+        <Button android:id="@+id/record_retest_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/record_test_restart"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom">
+        <include layout="@layout/button_status" android:id="@+id/main_btn_status" />
+    </LinearLayout>
+
+</LinearLayout>

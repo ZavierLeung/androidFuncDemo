@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorLine">#e7608775</color>
+    <color name="colorBack">#000000</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorGreen">#00FF00</color>
+    <color name="colorBlue">#0000FF</color>
+    <color name="colorHalfBack">#B9000000</color>
+    <color name="colorProgressBarBG">#868f8b</color>
+    <color name="colorAudioBarBG">#ab7b817e</color>
+    <color name="colorTextViewBG">#C6C3C3C3</color>
+    <color name="colorSpinnerBG">#E2D1D0D0</color>
+    <color name="colorSensorX">#2B5954</color>
+    <color name="colorSensorY">#3E697C</color>
+    <color name="colorSensorZ">#3A4061</color>
+    <color name="colorTransparency">#00ffffff</color>
+</resources>

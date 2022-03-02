@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="10dp">
+    <TextView
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:textSize="24sp"
+        android:paddingTop="20px"
+        android:id="@+id/main_func_title_tv"
+        android:text="title"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:paddingTop="20px"
+        android:textSize="20sp"
+        android:id="@+id/main_func_sub_title_tv"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorAccent"
+        android:paddingTop="20px"
+        android:textSize="18sp"
+        android:visibility="visible"
+        android:id="@+id/main_func_result_tv"/>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <include layout="@layout/textview_title" android:id="@+id/main_tv_title"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/system_interface_result_tv"
+        android:text="@string/system_interface_result"
+        />
+    <include layout="@layout/button_status" android:id="@+id/main_btn_status"/>
+
+</LinearLayout>
